@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-	char c_cabital = 'a';
+	char c_cabital;
+	char c_small;
 
 	for (c_cabital = 'a'; c_cabital <= 'z'; c_cabital++)
+	{
 		putchar(c_cabital);
-
-	char c_small = 'A';
+	}
 
 	for (c_small = 'A'; c_small <= 'Z'; c_small++)
+	{
 		putcahr(c_small);
-
+	}
 	putchar('\n');
 	return (0);
 }
