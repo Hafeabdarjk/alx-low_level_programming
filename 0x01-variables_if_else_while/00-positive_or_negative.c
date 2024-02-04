@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* 
+/*
  *main: determine the sig of a given random number
  *return: no return value
  */
@@ -16,10 +16,9 @@ int main(void)
 
 	if (n > 0)
 		printf("%d is positive/n", n);
-	else if (n = 0)
+	else if (n == 0)
 		printf("%d is zer/n", n);
 	else
 		printf("%d is negative/n", n);
-	
 	return (0);
 }
