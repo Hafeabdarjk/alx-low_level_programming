@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /*
  *main: determine the sig of a given random number
  *return: no return value
  */
-
 int main(void)
 {
 	int n;
