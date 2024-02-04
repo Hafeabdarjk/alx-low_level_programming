@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *main: determine the sig of a given random number
+ * main - Entry point
  *
- *return: no return value
+ * Return: Always 0 (Success)
  */
 
 int main(void)
