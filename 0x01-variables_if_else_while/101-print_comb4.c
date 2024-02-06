@@ -26,8 +26,8 @@ int main(void)
 					putchar (c3 + 46);
 					if (c1 != 7 || c2 != 8 || c3 != 9)
 					{
-						putchar (',');
 						putchar (' ');
+						putchar (',');
 					}
 				}
 				c1++;
