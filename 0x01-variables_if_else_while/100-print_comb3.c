@@ -11,20 +11,21 @@ int main(void)
 	int c1 = 0;
 	int c2 = 1;
 
-	while (c1 < 10)
+	while (c1 < 9)
 	{
 		while (c2 < 10)
 		{
 			if (c2 > c1)
 			{
-			putchar(48 + c1);
-			putchar(48 + c2);
+				putchar(48 + c1);
+				putchar(48 + c2);
+				if (c1 != 8 && c2 != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			if (c1 != 8 && c2 != 9)
-			{
-			putchar(',');
-			putchar(' ');
-			}
+		
 			c2++;
 		}
 		c1++;
