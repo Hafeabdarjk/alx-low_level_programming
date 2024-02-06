@@ -13,17 +13,18 @@ int main(void)
 
 	while (c1 < 9)
 	{
+		c2 = 1;
 		while (c2 < 10)
 		{
 			if (c2 > c1)
 			{
-				putchar(48 + c1);
-				putchar(48 + c2);
-				if (c1 != 8 && c2 != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			putchar(48 + c1);
+			putchar(48 + c2);
+			if (c1 != 8 && c2 != 9)
+			{
+			putchar(',');
+			putchar(' ');
+			}
 			}
 		
 			c2++;
