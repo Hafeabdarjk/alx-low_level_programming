@@ -21,9 +21,9 @@ int main(void)
 			{
 				if (c3 > c2 && c2 > 1)
 				{
-					putchar (c1 + 46);
-					putchar (c2 + 46);
-					putchar (c3 + 46);
+					putchar (c1 + 48);
+					putchar (c2 + 48);
+					putchar (c3 + 48);
 					if (c1 != 7 || c2 != 8 || c3 != 9)
 					{
 						putchar (' ');
@@ -36,7 +36,7 @@ int main(void)
 		}
 		c3++;
 		c3 = 2;
-		putchar ('/n');
+		putchar ('\n');
 	}
 
 }
