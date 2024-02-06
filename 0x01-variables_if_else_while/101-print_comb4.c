@@ -15,15 +15,13 @@ int main(void)
 	c1 = 0;
 	while(c1 <= 7)
 	{
-		while (c2 <= 8)
-		{
 			while (c3 <= 9)
 			{
 				if (c3 > c2 && c2 > 1)
 				{
-					putchar (c1 + 48);
-					putchar (c2 + 48);
-					putchar (c3 + 48);
+					putchar (48 + c1);
+					putchar (48 + c2);
+					putchar (48 + c3);
 					if (c1 != 7 || c2 != 8 || c3 != 9)
 					{
 						putchar (' ');
@@ -32,8 +30,7 @@ int main(void)
 				}
 				c3++;
 			}
-			c2++;
-		}
+		c2++;
 		c1++;
 		c3 = 2;
 		putchar ('\n');
