@@ -30,11 +30,11 @@ int main(void)
 						putchar (',');
 					}
 				}
-				c1++;
+				c3+;
 			}
 			c2++;
 		}
-		c3++;
+		c1++;
 		c3 = 2;
 		putchar ('\n');
 	}
