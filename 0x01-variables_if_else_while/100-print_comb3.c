@@ -19,10 +19,10 @@ int main(void)
 			{
 				putchar(48 + c1);
 				putchar(48 + c2);
-				if (c1 != 8 && c2 != 9)
+				if (c1 != 8 || c2 != 9)
 				{
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			c2++;
